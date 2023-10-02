@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbarLi {
+        @apply hover:text-[#FFFFFF] hover:bg-[#91514E] cursor-pointer duration-300 p-3 rounded-3xl
+    }
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../public/fonts/PlayfairDisplay-BoldItalic.otf);
+  }
+
+  @font-face {
+    font-family: SpaceMono;
+    src: url(../public/fonts/SpaceMono-Regular.ttf);
+  }
+
+
