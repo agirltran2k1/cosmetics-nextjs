@@ -1,3 +1,3 @@
 export default function Feed() {
-    return <h1>Hello, Bảo Trân!</h1>;
+    return <h1>Hello, Bạn!</h1>;
 }
